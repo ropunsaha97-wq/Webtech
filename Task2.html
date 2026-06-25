@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pental Shop - Contact</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+
+    .form-box {
+      background-color: #c8f0c8;
+      border-radius: 16px;
+      padding: 30px 40px;
+      width: 500px;
+    }
+
+    .form-box h2 {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    .form-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+
+    .form-row label {
+      width: 80px;
+      font-size: 15px;
+    }
+
+    .form-row input[type="text"],
+    .form-row input[type="email"],
+    .form-row textarea {
+      flex: 1;
+      padding: 8px;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .form-row textarea {
+      height: 80px;
+      resize: none;
+    }
+
+    .form-row.submit-row {
+      justify-content: flex-end;
+    }
+
+    button {
+      padding: 8px 24px;
+      background-color: #f0f0f0;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-box">
+    <h2>Contact Information</h2>
+
+    <div class="form-row">
+      <label>Name</label>
+      <input type="text" placeholder="">
+    </div>
+
+    <div class="form-row">
+      <label>Email</label>
+      <input type="email" placeholder="">
+    </div>
+
+    <div class="form-row">
+      <label>Message</label>
+      <textarea></textarea>
+    </div>
+
+    <div class="form-row submit-row">
+      <button type="submit">Submit</button>
+    </div>
+  </div>
+
+</body>
+</html>
